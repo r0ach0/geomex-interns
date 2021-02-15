@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <typeAliases>
+        <!-- <typeAlias alias="userVO" type="egovframework.lab.mvc.service.UserVO" /> -->
+    </typeAliases>
+
+
+    <!-- <mappers> ** 이거 안쓴다. context-mybatis에서 걍 읽어오게 해놨음 **
+        <mapper resource="sqlmap/mappers/user-mapper-interface.xml" />
+    </mappers> -->
+    
+</configuration>
