@@ -9,7 +9,7 @@
 <body>
 	<div>
 	<span> 수정하려는 ID의 NAME을 입력하세요</span>
-    <form:form commandName="memberModify">
+    <form:form commandName="memberUpdateName" action="/updateName">
      
         <table>
         
@@ -35,16 +35,11 @@
     </div>
     
     	<div>
-	<span> 수정하려는 ID의 NAME을 입력하세요</span>
-    <form:form commandName="memberModify">
+	<span> 삭제하려는 ID를 입력하세요</span>
+    <form:form commandName="memberDelete" action="/DeleteMember">
      
         <table>
         
-            <tr>
-                <td><label for="name">이름</label></td>
-                <td><form:input id="name" path="name" /></td>
-              
-            </tr>
             <tr>
                 <td><label for="id">아이디</label></td>
                 <td><form:input id="id" path="id" /></td>
