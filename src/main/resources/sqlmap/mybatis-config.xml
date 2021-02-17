@@ -4,12 +4,15 @@
 <configuration>
 
     <typeAliases>
-        <typeAlias alias="accountVO" type="geomex.models.UserVO" />
+        <typeAlias alias="UserVO" type="geomex.models.UserVO" />
+        <typeAlias alias="ArticleVO" type="geomex.models.ArticleVO" />
+        <typeAlias alias="CommentVO" type="geomex.models.CommentVO" />
     </typeAliases>
 
-<!-- 
     <mappers>
+        <mapper resource="sqlmap/mappers/user-mapper.xml" />
         <mapper resource="sqlmap/mappers/account-mapper.xml" />
-    </mappers> -->
+        <mapper resource="sqlmap/mappers/comment-mapper.xml" />
+    </mappers>
     
 </configuration>
