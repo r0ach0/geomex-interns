@@ -27,8 +27,8 @@
               
             </tr>
             <tr>
-                <td><label for="pw">비밀번호</label></td>
-                <td><form:input type = "password" id="pw" path="pw" /></td>
+                <td><label for="password">비밀번호</label></td>
+                <td><form:input type = "password" id="password" path="password" /></td>
              
             </tr>
         
