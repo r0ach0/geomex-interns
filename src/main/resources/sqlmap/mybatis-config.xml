@@ -4,7 +4,7 @@
 <configuration>
 
     <typeAliases>
-        <typeAlias alias="accountVO" type="geomex.models.AccountVO" />
+        <typeAlias alias="accountVO" type="geomex.models.UserVO" />
     </typeAliases>
 
 <!-- 
