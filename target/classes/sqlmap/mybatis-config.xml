@@ -4,12 +4,12 @@
 <configuration>
 
     <typeAliases>
-        <!-- <typeAlias alias="userVO" type="egovframework.lab.mvc.service.UserVO" /> -->
+        <typeAlias alias="accountVO" type="geomex.models.AccountVO" />
     </typeAliases>
 
-
-    <!-- <mappers> ** 이거 안쓴다. context-mybatis에서 걍 읽어오게 해놨음 **
-        <mapper resource="sqlmap/mappers/user-mapper-interface.xml" />
+<!-- 
+    <mappers>
+        <mapper resource="sqlmap/mappers/account-mapper.xml" />
     </mappers> -->
     
 </configuration>

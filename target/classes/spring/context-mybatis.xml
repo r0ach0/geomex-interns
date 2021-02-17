@@ -5,10 +5,10 @@
     <bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
         <property name="configLocation" value="classpath:/sqlmap/mybatis-config.xml" />
-        <property name="mapperLocations" value="classpath:sqlmap/mappers/*.xml" />
+        <property name="mapperLocations" value="classpath:/sqlmap/mappers/*.xml" />
     </bean>
 
     <bean class="egovframework.rte.psl.dataaccess.mapper.MapperConfigurer">
-        <property name="basePackage" value="geomex.impls"/>
+        <property name="basePackage" value="geomex.mappers"/>
     </bean>
 </beans>
