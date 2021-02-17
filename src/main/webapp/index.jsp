@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <jsp:forward page="/articleList.do" />
@@ -182,3 +183,7 @@
     </div>
 </body>
 </html>
+=======
+%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<jsp:forward page="/articleList.do"/>
+>>>>>>> origin/master
